@@ -96,3 +96,57 @@ body {
     font-weight: 800;
     border-radius: 20px;
 }
+
+.recipie-talk {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.recipie-talk h1 
+{
+    font-size: 55px;
+    margin: 0;
+    color: #575757;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.recipie-talk p {
+    color: gray;
+    font-size: 25px;
+}
+
+.recipie-items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.single-item {
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.single-item h1 {
+    font-size: 30px;
+    color: #575757;
+}
+
+.single-item p 
+{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.just-item img {
+    width: 100%;
+    border-radius: 20px;
+}
