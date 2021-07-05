@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ebf8ff;
+}
+
+.introduction {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.different-color {
+    color: #0a92e0;
+}
+
+.intro {
+    width: 50%;
+}
+
+.text {
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.text h1 {
+    font-size: 55px;
+    margin: 0;
+    color: #575757;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text p {
+    color: gray;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.text a {
+    background-image: linear-gradient(#3fb8fd, #8b85fc);
+    padding: 15px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.intro img {
+    margin-top: 20%;
+    width: 80%;
+}
+
+.about {
+    display: flex;
+    background-image: url(image/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+
+.know-us {
+    width: 50%;
+}
+
+.know-us img {
+    margin-top: 40%;
+    margin-left: 30%;
+    width: 70%;
+}
+
+.agenda {
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+.agenda h2 {
+    font-size: 45px;
+    color: #575757;
+}
+
+.agenda p {
+    color: gray;
+    font-size: 25px;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.agenda a {
+    background-image: linear-gradient(#3fb8fd, #8b85fc);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 20px;
+}
