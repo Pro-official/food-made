@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Noto Sans', sans-serif;
     background-color: #ebf8ff;
 }
@@ -11,6 +12,10 @@ body {
 
 .different-color {
     color: #0a92e0;
+}
+
+#quote {
+    font-size: 40px;
 }
 
 .intro {
@@ -97,6 +102,11 @@ body {
     border-radius: 20px;
 }
 
+.recipies {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
 .recipie-talk {
     text-align: center;
     margin-left: 30%;
@@ -152,4 +162,113 @@ body {
 .just-item img {
     width: 100%;
     border-radius: 20px;
+}
+
+.foodies {
+    margin-bottom: 5%;
+}
+
+.proof {
+    display: flex;
+    align-items: center;
+}
+
+.foodie-proof {
+    width: 40%;
+    margin-left: 60px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.foodie-proof img {
+    width: 100%;
+}
+
+.foodie-proof p {
+    color: gray;
+    font-size: 25px;
+}
+
+.foodie-talk {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.foodie-talk h1 {
+    font-size: 35px;
+    color: #575757;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.foodie-talk p {
+    font-size: 25px;
+    color: gray;
+}
+
+.contact {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.contact-text {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.contact-text h1 {
+    font-size: 35px;
+    color: #575757;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact p {
+    font-size: 30px;
+    color: gray;
+}
+
+.contact-image {
+    display: flex;
+    margin-left: 35%;
+}
+
+.contact-image img {
+    height: 70px;
+    width: 70px;
+}
+
+footer {
+    background-color: #0b0e17;
+    margin-bottom: 0;
+    display: block;
+}
+
+.footer-talk p {
+    margin-left: 35%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #5b5b5b;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright p {
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: #0b0e17;
 }
